@@ -46,33 +46,33 @@ backend-assignment/
 ```bash
 pip install -r requirements.txt
 
-### 2. Run The Server
+**### 2. Run The Server**
 
 uvicorn app.main:app --reload
 
-### 3. open AI docs
+**### 3. open AI docs**
 
 http://localhost:8000/docs
 
 
-🐳 Run with Docker
-1. Build Docker image
+**🐳 Run with Docker
+1. Build Docker image**
 
 docker build -t backend-app .
-
-2. Run container
+**
+2. Run container**
 
 docker run -p 8000:8000 backend-app
 
-3. Access API
+**3. Access API**
 
 http://localhost:8000/docs
 
-🧪 Running Tests
+**🧪 Running Tests**
 
 pytest
 
-📌 API Endpoints
+**📌 API Endpoints**
 Users
 POST /users/register → Register user
 POST /users/login → Login user
@@ -84,7 +84,7 @@ PUT /calculations/{id} → Update
 DELETE /calculations/{id} → Delete
 
 
-👩‍💻 Author
+**👩‍💻 Author**
 
 Sharvani Rao
 
